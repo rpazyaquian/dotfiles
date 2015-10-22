@@ -1,14 +1,7 @@
 #!/bin/sh
 
 # Get operating system
-platform='unknown'
-unamestr=$(uname)
-if [[ $unamestr == 'Linux' ]]; then
-  platform='linux'
-elif [[ $unamestr == 'Darwin' ]]; then
-  platform='darwin'
-fi
-
+platform='darwin'
 # PS
 alias psa="ps aux"
 alias psg="ps aux | grep "
