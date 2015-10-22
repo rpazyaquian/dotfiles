@@ -36,7 +36,7 @@
     - iterm2
     - macvim
     - the-unarchiver
-    - diffmerge
+    - DiffMerge
     - evernote
     - kindle
     - calibre
@@ -58,5 +58,4 @@
     - betterzipql
     - qlimagesize
     - webpquicklook
-    - suspicious-package
     - atom
