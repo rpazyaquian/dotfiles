@@ -29,6 +29,7 @@
   - copy: src=dotfiles/rvmrc dest=/Users/{{ ansible_user_id }}/.rvmrc backup=yes
   - copy: src=dotfiles/gemrc dest=/Users/{{ ansible_user_id }}/.gemrc backup=yes
   - copy: src=dotfiles/irbrc dest=/Users/{{ ansible_user_id }}/.irbrc backup=yes
+  - copy: src=dotfiles/npmrc dest=/Users/{{ ansible_user_id }}/.npmrc backup=yes
 
 - hosts: all
   roles:

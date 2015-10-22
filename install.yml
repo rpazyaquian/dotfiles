@@ -31,6 +31,7 @@
     - docker
     - docker-machine
     - docker-compose
+    - node
     cask_packages:
     - font-inconsolata-for-powerline
     - font-source-code-pro
@@ -59,3 +60,6 @@
     - qlimagesize
     - webpquicklook
     - atom
+    - parallels-desktop
+    - 1password
+    # - virtualbox (Probably will use parallelsdesktop)
