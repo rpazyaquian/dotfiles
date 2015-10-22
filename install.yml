@@ -13,7 +13,50 @@
     - ctags
     - reattach-to-user-namespace
     - tmux
+    - ansible
+    - grc
+    - coreutils
+    - the_silver_searcher
+    - htop-osx
+    - heroku-toolbelt
+    - imagemagick
+    - wget
+    - unrar
+    - ffmpeg
+    - gifsicle
+    - terminal-notifier
+    - redis
+    - youtube-dl
+    - docker
+    - docker-machine
+    - docker-compose
     cask_packages:
     - font-inconsolata-for-powerline
+    - font-source-code-pro
     - iterm2
     - macvim
+    - the-unarchiver
+    - diffmerge
+    - evernote
+    - kindle
+    - calibre
+    - dropbox
+    - skype
+    - slack
+    - google-chrome
+    - firefox
+    - steam
+    - transmission
+    - spotify
+    - vlc
+    - qlcolorcode
+    - qlstephen
+    - qlmarkdown
+    - quicklook-json
+    - qlprettypatch
+    - quicklook-csv
+    - betterzipql
+    - qlimagesize
+    - webpquicklook
+    - suspicious-package
+    - atom
