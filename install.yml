@@ -32,6 +32,8 @@
     - docker-machine
     - docker-compose
     - node
+    - go
+    - hg
     cask_packages:
     - font-inconsolata-for-powerline
     - font-source-code-pro
