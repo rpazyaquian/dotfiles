@@ -26,6 +26,7 @@
   - copy: src=dotfiles/editorconfig dest=/Users/{{ ansible_user_id }}/.editorconfig backup=yes
   - copy: src=dotfiles/gitignore dest=/Users/{{ ansible_user_id }}/.gitignore backup=yes
   - copy: src=dotfiles/gitconfig dest=/Users/{{ ansible_user_id }}/.gitconfig backup=yes
+  - copy: src=dotfiles/rvmrc dest=/Users/{{ ansible_user_id }}/.rvmrc backup=yes
 
 - hosts: all
   roles:
