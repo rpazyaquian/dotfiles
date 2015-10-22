@@ -1,0 +1,3 @@
+- copy: src={{ item }} dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/custom
+    with_items:
+      - ../custom/*

@@ -2,7 +2,6 @@
 # Here we describe every software we may want to install
 - hosts: all
   roles:
-  - role: pragmaticivan.rvm
   - role: osxc.packages
     brew_taps:
     - caskroom/fonts
