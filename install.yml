@@ -13,12 +13,12 @@
     - the_silver_searcher
     - ctags
     - cmake
+    - ack
     - reattach-to-user-namespace
     - tmux
     - ansible
     - grc
     - coreutils
-    - the_silver_searcher
     - htop-osx
     - heroku-toolbelt
     - imagemagick
