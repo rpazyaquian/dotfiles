@@ -2,6 +2,7 @@
 # Here we describe every software we may want to install
 - hosts: all
   roles:
+
   - role: osxc.packages
     brew_taps:
     - caskroom/fonts
@@ -31,7 +32,6 @@
     - docker-machine
     - docker-compose
     - node
-    - go
     - hg
     cask_packages:
     - font-inconsolata-for-powerline
@@ -64,3 +64,4 @@
     - parallels-desktop
     - 1password
     # - virtualbox (Probably will use parallelsdesktop)
+  - role: pragmaticivan.golang
