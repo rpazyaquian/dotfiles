@@ -1,6 +1,13 @@
-- name: Aliases
+- name: Base Aliases
   tags:
     - aliases
   template: >
     src=aliases.j2
     dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/custom/aliases.zsh
+
+- name: System Aliases
+  tags:
+    - aliases
+  template: >
+    src=system_aliases.j2
+    dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/custom/system_aliases.zsh
