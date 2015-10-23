@@ -1,6 +1,0 @@
----
-
-vimfiles_repo: "https://github.com/pragmaticivan/vimfiles"
-vimfiles_dir: "{{ workspace_dir }}/vimfiles"
-vimfiles_install_cmd: "./install.sh -u"
-macvim_install_options: "custom-icons,override-system-vim,with-lua,with-luajit,enable-pythoninterp=yes"
