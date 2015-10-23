@@ -21,6 +21,7 @@
     creates: "{{ ycm_installed_file }}"
   tags:
     - vimfiles
+    - ycm
 
 - name: Install MacVim
   homebrew:
