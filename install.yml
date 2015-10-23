@@ -12,6 +12,7 @@
     - vim
     - the_silver_searcher
     - ctags
+    - cmake
     - reattach-to-user-namespace
     - tmux
     - ansible
