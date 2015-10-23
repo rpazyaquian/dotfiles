@@ -14,15 +14,6 @@
   tags:
     - vimfiles
 
-- name: Install YCM
-  command: "{{ ycm_install_cmd }}"
-  args:
-    chdir: "{{ vimfiles_dir }}"
-    creates: "{{ ycm_installed_file }}"
-  tags:
-    - vimfiles
-    - ycm
-
 - name: Install MacVim
   homebrew:
     name=macvim
