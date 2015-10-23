@@ -1,0 +1,13 @@
+- name: Base Golang Path
+  tags:
+    - aliases
+  template: >
+    src=golang.j2
+    dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/custom/golang.zsh
+
+- name: Server Function
+  tags:
+    - aliases
+  template: >
+    src=server.j2
+    dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/custom/server.zsh
