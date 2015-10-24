@@ -1,0 +1,17 @@
+---
+- name: Configure OSX Dotfiles
+  hosts: all
+  roles:
+    ### Server provisioning roles:
+    - { role: osxc.packages, tags: ['packages']}
+    - role: osxc.repository
+      clone_url: https://github.com/robbyrussell/oh-my-zsh.git
+      dest: /Users/{{ ansible_user_id }}/.oh-my-zsh
+    - { role: pragmaticivan.rvm, tags: ['rvm']}
+    - { role: pragmaticivan.aliases, tags: ['aliases']}
+    - { role: pragmaticivan.zshpaths, tags: ['zshpaths']}
+    - { role: pragmaticivan.golang, tags: ['golang']}
+    - { role: pragmaticivan.copy-dotfiles, tags: ['copy-dotfiles']}
+
+    # Common Env
+    - { role: osxc.common-env, tags: ['common-env']}

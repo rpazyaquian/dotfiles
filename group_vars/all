@@ -2,3 +2,67 @@
 
 home_dir: "{{ lookup('env', 'HOME') }}"
 workspace_dir: "{{ home_dir }}/Code"
+
+
+# Packages
+brew_taps:
+  - caskroom/fonts
+brew_packages:
+  - git
+  - zsh
+  - vim
+  - the_silver_searcher
+  - ctags
+  - cmake
+  - ack
+  - reattach-to-user-namespace
+  - tmux
+  - ansible
+  - grc
+  - coreutils
+  - htop-osx
+  - heroku-toolbelt
+  - imagemagick
+  - wget
+  - unrar
+  - ffmpeg
+  - gifsicle
+  - terminal-notifier
+  - redis
+  - youtube-dl
+  - docker
+  - docker-machine
+  - docker-compose
+  - node
+  - hg
+cask_packages:
+  - font-inconsolata-for-powerline
+  - font-source-code-pro
+  - iterm2
+  - macvim
+  - the-unarchiver
+  - evernote
+  - kindle
+  - calibre
+  - dropbox
+  - skype
+  - slack
+  - google-chrome
+  - firefox
+  - steam
+  - transmission
+  - spotify
+  - vlc
+  - qlcolorcode
+  - qlstephen
+  - qlmarkdown
+  - quicklook-json
+  - qlprettypatch
+  - quicklook-csv
+  - betterzipql
+  - qlimagesize
+  - webpquicklook
+  - atom
+  - parallels-desktop
+  - 1password
+  - spectacle
