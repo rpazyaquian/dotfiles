@@ -35,6 +35,7 @@ brew_packages:
   - docker-compose
   - node
   - hg
+  - go
 cask_packages:
   - font-inconsolata-for-powerline
   - font-source-code-pro
