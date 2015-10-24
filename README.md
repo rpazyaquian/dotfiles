@@ -18,7 +18,7 @@ Dotfiles is a simple configuration tool for OS X.
 - [ ] Set default git editor
 - [ ] Add shortcut function for ~/Code folder
 - [ ] Install Powerline
-- [ ] Set Bullet Train ZSH Theme
+- [ ] Set Lambda-mod ZSH Theme
 
 
 ## Get started
