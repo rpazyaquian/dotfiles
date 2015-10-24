@@ -9,6 +9,11 @@ Welcome to Dotfiles !
 
 Dotfiles is a simple configuration tool for OS X.
 
+## To DO
+
+- [ ] Integrate with vimfiles
+- [ ] Paths for OSX default configs.
+
 ## Get started
 
 > **Additional Note:** If you're installing system-wide `sudo ansible-galaxy install -r requirements.yml` otherwise edit `ansible.cfg` and comment out `roles_path:./roles` to install the roles in your osxc.starter fork before running **Step 5**.
