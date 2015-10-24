@@ -16,6 +16,7 @@ Dotfiles is a simple configuration tool for OS X.
 - [ ] Ask for Git Name and Email for gitconfig
 - [ ] Git commit message (dotfile)
 - [ ] Set default git editor
+- [ ] Add shortcut function for ~/Code folder
 
 ## Get started
 
