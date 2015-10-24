@@ -18,8 +18,6 @@
   - role: osxc.repository
     clone_url: https://github.com/gmarik/vundle.git
     dest: /Users/{{ ansible_user_id }}/.vim/bundle/vundle
-  - role: pragmaticivan.rvm
-  - role: pragmaticivan.aliases
   post_tasks:
   - copy: src=dotfiles/zshrc dest=/Users/{{ ansible_user_id }}/.zshrc backup=yes
   - copy: src=dotfiles/vimrc.local dest=/Users/{{ ansible_user_id }}/.vimrc.local backup=yes

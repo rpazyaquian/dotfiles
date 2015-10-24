@@ -64,6 +64,5 @@
     - atom
     - parallels-desktop
     - 1password
-    # - virtualbox (Probably will use parallelsdesktop)
   - role: pragmaticivan.zshpaths
   - role: pragmaticivan.golang
