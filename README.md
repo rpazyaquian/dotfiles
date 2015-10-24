@@ -12,7 +12,10 @@ Dotfiles is a simple configuration tool for OS X.
 ## To DO
 
 - [ ] Integrate with vimfiles
-- [ ] Paths for OSX default configs.
+- [ ] Paths for OSX default configs
+- [ ] Ask for Git Name and Email for gitconfig
+- [ ] Git commit message (dotfile)
+- [ ] Set default git editor
 
 ## Get started
 
