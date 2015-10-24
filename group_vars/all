@@ -41,7 +41,6 @@ cask_packages:
   - font-source-code-pro
   - iterm2
   - alfred
-  - macvim
   - the-unarchiver
   - evernote
   - kindle

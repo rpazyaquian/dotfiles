@@ -3,13 +3,15 @@
   hosts: all
   roles:
     ### Server provisioning roles:
-    - { role: osxc.packages, tags: ['packages']}
-    - role: osxc.repository
+    - { role: pragmaticivan.copy-dotfiles, tags: ['copy-dotfiles']}
+    - { role: pragmaticivan.common-env, tags: ['common-env']}
+    - { role: pragmaticivan.homebrew, tags: ['homebrew']}
+    - { role: pragmaticivan.packages, tags: ['packages']}
+    - role: pragmaticivan.repository
       clone_url: https://github.com/robbyrussell/oh-my-zsh.git
       dest: /Users/{{ ansible_user_id }}/.oh-my-zsh
-    - { role: pragmaticivan.copy-dotfiles, tags: ['copy-dotfiles']}
+    - { role: pragmaticivan.vimfiles, tags: ['vimfiles']}
     - { role: pragmaticivan.rvm, tags: ['rvm']}
     - { role: pragmaticivan.aliases, tags: ['aliases']}
     - { role: pragmaticivan.zshpaths, tags: ['zshpaths']}
-    - { role: osxc.common-env, tags: ['common-env']}
     - { role: pragmaticivan.terminals, tags: ['terminals']}

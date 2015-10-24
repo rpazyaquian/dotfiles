@@ -1,0 +1,5 @@
+---
+clone_url: https://github.com/pragmaticivan/vimfiles.git
+dest: /Users/{{ ansible_user_id }}/.vimfiles
+version: HEAD
+configure_cmd: rake
