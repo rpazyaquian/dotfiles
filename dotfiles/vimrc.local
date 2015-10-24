@@ -10,9 +10,9 @@ inoremap jj <ESC>
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
   if ($TERM_PROGRAM == 'iTerm.app')
-    colorscheme solarized
+    colorscheme dracula
   else
-    colorscheme desert
+    colorscheme dracula
   endif
 endif
 
