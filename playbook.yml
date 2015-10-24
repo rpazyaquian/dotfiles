@@ -14,3 +14,4 @@
     - { role: pragmaticivan.zshpaths, tags: ['zshpaths']}
     - { role: pragmaticivan.rvm, tags: ['rvm']}
     - { role: pragmaticivan.terminals, tags: ['terminals']}
+    - { role: pragmaticivan.setzshdefault, tags: ['setzshdefault']}
