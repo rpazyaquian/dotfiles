@@ -11,6 +11,5 @@
     - { role: pragmaticivan.rvm, tags: ['rvm']}
     - { role: pragmaticivan.aliases, tags: ['aliases']}
     - { role: pragmaticivan.zshpaths, tags: ['zshpaths']}
-
-    # Common Env
     - { role: osxc.common-env, tags: ['common-env']}
+    - { role: pragmaticivan.terminals, tags: ['terminals']}

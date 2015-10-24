@@ -40,6 +40,7 @@ cask_packages:
   - font-inconsolata-for-powerline
   - font-source-code-pro
   - iterm2
+  - alfred
   - macvim
   - the-unarchiver
   - evernote
