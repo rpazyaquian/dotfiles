@@ -22,7 +22,7 @@ Ensure that homebrew is installed on your mac
 
 ## Dependencies
 
-- `osxc.common-env`
+- `pragmaticivan.common-env`
 
 ## License
 

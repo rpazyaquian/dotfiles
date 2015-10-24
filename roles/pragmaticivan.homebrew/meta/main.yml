@@ -15,4 +15,4 @@ galaxy_info:
   - packaging
   - system
 dependencies:
-- osxc.common-env
+- pragmaticivan.common-env
