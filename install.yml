@@ -64,5 +64,6 @@
     - atom
     - parallels-desktop
     - 1password
+    - spectacle
   - role: pragmaticivan.zshpaths
   - role: pragmaticivan.golang

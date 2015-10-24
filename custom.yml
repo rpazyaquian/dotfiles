@@ -1,0 +1,4 @@
+- hosts: all
+  roles:
+  - role: pragmaticivan.rvm
+  - role: pragmaticivan.aliases
