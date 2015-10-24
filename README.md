@@ -20,6 +20,7 @@ Dotfiles is a simple configuration tool for OS X.
 - [ ] Install Powerline
 - [ ] Set Lambda-mod ZSH Theme
 - [ ] Set Dracula as a iterm and vim Theme
+- [ ] Update dotfile copy and use template instead
 
 
 ## Get started
