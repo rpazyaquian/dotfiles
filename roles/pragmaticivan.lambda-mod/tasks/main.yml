@@ -1,0 +1,2 @@
+- name: Download Lambda Mod Theme
+  get_url: url=https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/lambda-mod.zsh-theme dest=/Users/{{ ansible_user_id }}/.oh-my-zsh/themes/lambda-mod.zsh-theme

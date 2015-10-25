@@ -13,6 +13,7 @@
       dest: /Users/{{ ansible_user_id }}/.oh-my-zsh
     - { role: pragmaticivan.aliases, tags: ['aliases']}
     - { role: pragmaticivan.zshpaths, tags: ['zshpaths']}
+    - { role: pragmaticivan.lambda-mod, tags: ['lambda-mod']}
     - { role: pragmaticivan.rvm, tags: ['rvm']}
     - { role: pragmaticivan.terminals, tags: ['terminals']}
     - { role: pragmaticivan.setzshdefault, tags: ['setzshdefault']}
