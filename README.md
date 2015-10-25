@@ -15,10 +15,10 @@ Dotfiles is a simple configuration tool for OS X.
 - [ ] Paths for OSX default configs
 - [ ] Ask for Git Name and Email for gitconfig
 - [ ] Git commit message (dotfile)
-- [ ] Set default git editor
+- [x] Set default git editor
 - [ ] Add shortcut function for ~/Code folder
-- [ ] Install Powerline
-- [ ] Set Lambda-mod ZSH Theme
+- [x] Install Powerline
+- [x] Set Lambda-mod ZSH Theme
 - [ ] Set Dracula as a iterm and vim Theme
 - [ ] Update dotfile copy and use template instead
 

@@ -7,6 +7,7 @@
     - { role: pragmaticivan.common-env, tags: ['common-env']}
     - { role: pragmaticivan.homebrew, tags: ['homebrew']}
     - { role: pragmaticivan.packages, tags: ['packages']}
+    - { role: pragmaticivan.powerline, tags: ['powerline']}
     - role: pragmaticivan.repository
       clone_url: https://github.com/robbyrussell/oh-my-zsh.git
       dest: /Users/{{ ansible_user_id }}/.oh-my-zsh

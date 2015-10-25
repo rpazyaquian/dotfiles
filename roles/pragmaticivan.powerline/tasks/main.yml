@@ -1,0 +1,6 @@
+---
+- name: Install Powerline
+  command: pip install --user git+git://github.com/Lokaltog/powerline
+
+- name: Install Powerline Monaco
+  script: ./../files/monaco.sh
