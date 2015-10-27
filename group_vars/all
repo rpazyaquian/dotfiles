@@ -39,20 +39,30 @@ brew_packages:
 cask_packages:
   - font-inconsolata-for-powerline
   - font-source-code-pro
-  - iterm2
+  - dropbox
+  - slack
+  - 1password
   - alfred
-  - the-unarchiver
+  - spectacle
+  - numi
+  - little-snitch
+  - iterm2
   - evernote
   - kindle
-  - calibre
-  - dropbox
-  - skype
-  - slack
-  - google-chrome
-  - firefox
-  - steam
-  - transmission
   - spotify
+  - skype
+  - diffmerge
+  - parallels-desktop
+  - bitbar
+  - firefox
+  - google-chrome
+  - steam
+  - atom
+  - navicat-for-postgresql
+  - sequel-pro
+  - transmission
+  - calibre
+  - the-unarchiver
   - vlc
   - qlcolorcode
   - qlstephen
@@ -63,7 +73,3 @@ cask_packages:
   - betterzipql
   - qlimagesize
   - webpquicklook
-  - atom
-  - parallels-desktop
-  - 1password
-  - spectacle
