@@ -31,7 +31,7 @@ Dotfiles is a simple configuration tool for OS X.
 2. Easy_install pip, and then pip install Ansible: `sudo easy_install pip; sudo pip install ansible` (or `sudo pip install --upgrade ansible` if Ansible has already been installed via pip and needs upgrading to 1.8+)
 3. While that's happening [Fork this repo](https://github.com/pragmaticivan/dotfiles/fork) and then clone your fork anywhere you want on your machine: `git clone https://github.com/<yourname>/dotfiles.git ~/ansible-dotfiles; cd ~/ansible-dotfiles`
 4. Take a quick look at `playbook.yml` customizing to your liking.
-5. Start osxc with `ansible-playbook playbook.yml`
+5. Start dotfiles with `ansible-playbook playbook.yml`
 
 At the end, you'll only need to repeat step 5.
 
