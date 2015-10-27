@@ -34,7 +34,7 @@ This project is just tested with OSX.
 
 Now you're ready to further tweak the configuration we gave you. Have fun ! (You may want to read the [Ansible documentation](http://docs.ansible.com/index.html) in this case ...)
 
-## To DO
+## TODO
 
 - [x] Install Powerline
 - [x] Set Lambda-mod ZSH Theme
