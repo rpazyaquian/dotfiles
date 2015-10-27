@@ -15,9 +15,9 @@ Dotfiles is a simple configuration tool for OS X.
 - [x] Set Lambda-mod ZSH Theme
 - [x] Set Dracula as a iterm and vim Theme
 - [x] Set default git editor
+- [x] Git commit message (dotfile)
 - [ ] Paths for OSX default configs
 - [ ] Ask for Git Name and Email for gitconfig
-- [ ] Git commit message (dotfile)
 - [ ] Add shortcut function for ~/Code folder
 - [ ] Update dotfile copy and use template instead
 - [ ] Template for Computer Name

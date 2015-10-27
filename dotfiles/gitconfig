@@ -133,3 +133,5 @@
     lineNumber   = true
 [push]
     default = upstream
+[commit]
+  template = ~/template.txt
