@@ -1,13 +1,38 @@
-DOTFILES
-========
+# dotfiles
 
-An OSX based dotfile provisioned by ansible.
+> Modern Osx based dotfile provisioned by ansible.
 
-## Introduction
+<img width="720" src="https://cloud.githubusercontent.com/assets/301291/10748612/1655d6c0-7c30-11e5-950e-4968f8825ff0.jpg" alt="Demo">
+
+
+## Why
 
 Welcome to Dotfiles !
 
-Dotfiles is a simple configuration tool for OS X.
+If you don't like or don't have experience with shell script, using ansible (via yml) is a good way to understand what's happening in your entire configuration.
+
+This `dotfiles` is a simple configuration tool for Mac OSX.
+
+## Prerequisites
+
+* Be sure to have the XCode Command-Line tools installed: `xcode-select --install`
+* Easy_install pip, and then pip install Ansible: `sudo easy_install pip; sudo pip install ansible` (or `sudo pip install --upgrade ansible` if Ansible has already been installed via pip and needs upgrading to 1.8+)
+
+## Fork and personal infos
+
+* While that's happening [Fork this repo](https://github.com/pragmaticivan/dotfiles/fork) and then clone your fork anywhere you want on your machine: `git clone https://github.com/<yourname>/dotfiles.git ~/ansible-dotfiles; cd ~/ansible-dotfiles`
+
+* Take a quick look at `playbook.yml` customizing to your liking.
+
+## Installation
+
+Install dotfiles with `ansible-playbook playbook.yml`
+
+## Compatibility
+
+This project is just tested with OSX.
+
+Now you're ready to further tweak the configuration we gave you. Have fun ! (You may want to read the [Ansible documentation](http://docs.ansible.com/index.html) in this case ...)
 
 ## To DO
 
@@ -24,15 +49,15 @@ Dotfiles is a simple configuration tool for OS X.
 - [ ] Template for Computer Name
 - [ ] Integrate with vimfiles
 
+## Bugs
 
-## Get started
+I want this to work for everyone who uses OSX; that means when you clone it down it should work for you even though you choose to use rbenv, for example. I do use this as my `dotfiles`, so there's a good chance I may break something if I forget to make a check for a dependency.
 
-1. Be sure to have the XCode Command-Line tools installed: `xcode-select --install`
-2. Easy_install pip, and then pip install Ansible: `sudo easy_install pip; sudo pip install ansible` (or `sudo pip install --upgrade ansible` if Ansible has already been installed via pip and needs upgrading to 1.8+)
-3. While that's happening [Fork this repo](https://github.com/pragmaticivan/dotfiles/fork) and then clone your fork anywhere you want on your machine: `git clone https://github.com/<yourname>/dotfiles.git ~/ansible-dotfiles; cd ~/ansible-dotfiles`
-4. Take a quick look at `playbook.yml` customizing to your liking.
-5. Start dotfiles with `ansible-playbook playbook.yml`
+If you're brand-new to the project and run into any blockers, please open an issue on this repository and I'd love to get it fixed for you!
 
-At the end, you'll only need to repeat step 5.
+## Contributing
 
-Now you're ready to further tweak the configuration we gave you. Have fun ! (You may want to read the [Ansible documentation](http://docs.ansible.com/index.html) in this case ...)
+Feel free to contribute.
+
+## Thanks
+I used some excellent `dotfiles` and tweaked it to fit my taste. Thanks everyone!
