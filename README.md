@@ -16,6 +16,7 @@ Dotfiles is a simple configuration tool for OS X.
 - [x] Set Dracula as a iterm and vim Theme
 - [x] Set default git editor
 - [x] Git commit message (dotfile)
+- [ ] Update Gitconfig
 - [ ] Paths for OSX default configs
 - [ ] Ask for Git Name and Email for gitconfig
 - [ ] Add shortcut function for ~/Code folder
