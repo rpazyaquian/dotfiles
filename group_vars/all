@@ -64,6 +64,7 @@ cask_packages:
   - calibre
   - the-unarchiver
   - vlc
+  - mou
   - qlcolorcode
   - qlstephen
   - qlmarkdown
