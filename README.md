@@ -1,6 +1,6 @@
 # dotfiles
 
-> Modern Osx based dotfile provisioned by ansible.
+> Modern OSX based dotfile provisioned by ansible.
 
 <img width="720" src="https://cloud.githubusercontent.com/assets/301291/10748612/1655d6c0-7c30-11e5-950e-4968f8825ff0.jpg" alt="Demo">
 
