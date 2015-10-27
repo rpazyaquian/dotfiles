@@ -36,6 +36,7 @@ brew_packages:
   - node
   - hg
   - go
+  - elixir
 cask_packages:
   - font-inconsolata-for-powerline
   - font-source-code-pro
