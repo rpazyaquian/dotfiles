@@ -3,6 +3,7 @@
   hosts: all
   roles:
     ### Server provisioning roles:
+    - { role: pragmaticivan.workspace-folder, tags: ['workspace-folder']}
     - { role: pragmaticivan.copy-dotfiles, tags: ['copy-dotfiles']}
     - { role: pragmaticivan.common-env, tags: ['common-env']}
     - { role: pragmaticivan.homebrew, tags: ['homebrew']}
