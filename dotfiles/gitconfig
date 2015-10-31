@@ -1,10 +1,70 @@
-# Sample gitconfig
-#
-# You probably want to change the [user] section here since you are not me.
 [user]
     name = Ivan Santos
     email = pragmaticivan@gmail.com
-    helper = GIT_CREDENTIAL_HELPER
+
+[core]
+    editor            = vim
+    excludesfile      = ~/.gitignore
+    compression       = -1
+    autocrlf          = input
+    whitespace        = trailing-space,space-before-tab
+    precomposeunicode = true
+
+[push]
+    default = upstream
+
+[color]
+    diff    = auto
+    status  = auto
+    branch  = auto
+    ui      = true
+
+# Merge
+[merge]
+    tool = diffmerge
+[mergetool "diffmerge"]
+    cmd           = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+    trustExitCode = true
+    keepBackup    = false
+
+# Diff
+[diff]
+    tool = diffmerge
+[difftool "diffmerge"]
+    cmd = diffmerge $LOCAL $REMOTE
+[difftool]
+    prompt = false
+
+# Gitflow
+[gitflow "prefix"]
+	feature = feature-
+	release = release-
+	hotfix = hotfix-
+	support = support-
+	versiontag = v
+
+# Commit Template
+[commit]
+  template = ~/template.txt
+
+# Format
+[format]
+  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
+
+# Base Configs
+[apply]
+    whitespace = nowarn
+[help]
+    autocorrect = 1
+[grep]
+    extendRegexp = true
+    lineNumber   = true
+
+
+# Sample gitconfig
+#
+# You probably want to change the [user] section here since you are not me.
+
 [alias]
     # add
     a = add                           # add
@@ -83,55 +143,3 @@
     svnr = svn rebase
     svnd = svn dcommit
     svnl = svn log --oneline --show-commit
-
-    co                = checkout
-    promote           = !$ZSH/bin/git-promote
-    wtf               = !$ZSH/bin/git-wtf
-    unpushed-st       = !$ZSH/bin/git-unpushed-stat
-    nuke              = !$ZSH/bin/git-nuke
-    count             = shortlog -sn
-    lc                = !$ZSH/bin/git-add-rm-line-count
-    g                 = grep --break --heading --line-number
-    gi                = grep --break --heading --line-number -i
-    changed           = show --pretty=\"format:\" --name-only
-    sync              = !zsh -ic git-sync
-    cp-branch-name    = !git rev-parse --abbrev-ref HEAD | pbcopy
-    delete-local-merged = !zsh -ic git-delete-local-merged
-    add-upstream      = !zsh -ic add-upstream
-[format]
-  pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
-[color]
-    diff    = auto
-    status  = auto
-    branch  = auto
-    ui      = true
-[core]
-    excludesfile      = ~/.gitignore
-    editor            = vim
-    compression       = -1
-    autocrlf          = input
-    whitespace        = trailing-space,space-before-tab
-    precomposeunicode = true
-[apply]
-    whitespace = nowarn
-[help]
-    autocorrect = 1
-[merge]
-    tool = diffmerge
-[mergetool "diffmerge"]
-    cmd           = diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
-    trustExitCode = true
-    keepBackup    = false
-[diff]
-    tool = diffmerge
-[difftool "diffmerge"]
-    cmd = diffmerge $LOCAL $REMOTE
-[difftool]
-    prompt = false
-[grep]
-    extendRegexp = true
-    lineNumber   = true
-[push]
-    default = upstream
-[commit]
-  template = ~/template.txt
