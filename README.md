@@ -34,16 +34,15 @@ This project is just tested with OSX.
 
 Now you're ready to further tweak the configuration we gave you. Have fun ! (You may want to read the [Ansible documentation](http://docs.ansible.com/index.html) in this case ...)
 
-## TODO
+## Roadmap
 
 - [x] Install Powerline
 - [x] Set Lambda-mod ZSH Theme
 - [x] Set Dracula as a iterm and vim Theme
 - [x] Set default git editor
 - [x] Git commit message (dotfile)
-- [ ] Update Gitconfig
+- [x] Gitconfig
 - [ ] Paths for OSX default configs
-- [ ] Ask for Git Name and Email for gitconfig
 - [ ] Add shortcut function for ~/Code folder
 - [ ] Update dotfile copy and use template instead
 - [ ] Template for Computer Name
