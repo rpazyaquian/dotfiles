@@ -60,3 +60,7 @@ Feel free to contribute.
 
 ## Thanks
 I used some excellent `dotfiles` and tweaked it to fit my taste. Thanks everyone!
+
+## License
+
+[MIT License](http://pragmaticivan.mit-license.org) © Ivan Santos
