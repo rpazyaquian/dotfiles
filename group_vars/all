@@ -43,7 +43,6 @@ cask_packages:
   - dropbox
   - slack
   - 1password
-  - alfred
   - spectacle
   - numi
   - little-snitch
@@ -59,7 +58,6 @@ cask_packages:
   - google-chrome
   - steam
   - atom
-  - navicat-for-postgresql
   - sequel-pro
   - transmission
   - calibre
