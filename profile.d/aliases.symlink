@@ -111,7 +111,6 @@ alias migrate='rake db:migrate'
 alias fs='bundle exec foreman start'
 alias fsdev='bundle exec foreman start -f Procfile.dev'
 
-
 # Node
 alias npis='npm install --save'
 alias npisd='npm install --save-dev'
@@ -119,6 +118,7 @@ alias npig='npm install -g'
 alias npit='npm init'
 alias npi='npm install'
 
+# Kill bill
 alias ka9='killall -9'
 alias k9='kill -9'
 
@@ -127,7 +127,6 @@ alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew d
 
 # SSH
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
-
 
 # Make Grunt print stack traces by default
 command -v grunt > /dev/null && alias grunt="grunt --stack"
