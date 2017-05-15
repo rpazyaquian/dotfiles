@@ -7,7 +7,7 @@ Unified. Organized. Personalized.
 If you don’t already have a huge collection of dotfiles simply run the installer and follow the prompts:
 
 ```Shell
-git clone git://github.com/thcipriani/dotfile-boilerplate ~/.dotfiles
+git clone git://github.com/pragmaticivan/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ./bootstrap --new-setup
 ```
