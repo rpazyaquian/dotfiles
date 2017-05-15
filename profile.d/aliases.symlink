@@ -131,6 +131,24 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 # Make Grunt print stack traces by default
 command -v grunt > /dev/null && alias grunt="grunt --stack"
 
+# Pull
+alias gpl='g pl'
+alias gplo='g plo'
+alias gplom='g plom'
+alias gplog='g plog'
+alias gplu='g plu'
+alias gplum='g plum'
+alias gplug='g plug'
+
+# Push
+alias gps='g ps'
+alias gpso='g pso'
+alias gpsom='g psom'
+alias gpsog='g psog'
+alias gpsu='g psu'
+alias gpsum='g psum'
+alias gpsug='g psug'
+
 if [[ $(uname -s) == "Darwin" ]]; then
     source ~/.profile.osx.d/aliases
 elif [[ $(uname -s) == "Linux" ]]; then
