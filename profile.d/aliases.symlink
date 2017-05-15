@@ -80,6 +80,55 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
     alias "$method"="lwp-request -m '$method'"
 done
 
+# Show human friendly numbers and colors
+alias df='df -h'
+alias du='du -h -d 2'
+
+# Moving around
+alias cdb='cd -'
+alias cls='clear;ls'
+
+# zsh profile editing
+alias ze='vim ~/.zshrc'
+alias zr='source ~/.zshrc'
+
+# Common shell functions
+alias less='less -r'
+alias tf='tail -f'
+alias l='less'
+alias lh='ls -alt | head' # see the last modified files
+alias screen='TERM=screen screen'
+alias cl='clear'
+
+# Ruby
+alias rc='rails c' # Rails 3
+alias co='script/console --irb=pry' # Rails 2
+alias ts='thin start'
+alias ms='mongrel_rails start'
+alias tfdl='tail -f log/development.log'
+alias tftl='tail -f log/test.log'
+alias migrate='rake db:migrate'
+alias fs='bundle exec foreman start'
+alias fsdev='bundle exec foreman start -f Procfile.dev'
+
+
+# Node
+alias npis='npm install --save'
+alias npisd='npm install --save-dev'
+alias npig='npm install -g'
+alias npit='npm init'
+alias npi='npm install'
+
+alias ka9='killall -9'
+alias k9='kill -9'
+
+# Homebrew
+alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
+
+# SSH
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
+
 # Make Grunt print stack traces by default
 command -v grunt > /dev/null && alias grunt="grunt --stack"
 
