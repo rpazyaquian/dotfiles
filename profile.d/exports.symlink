@@ -2,7 +2,7 @@
 # http://mths.be/dotfiles
 
 # Make vim the default editor
-export EDITOR="vim"
+export EDITOR="code"
 
 export PROJECTS=~/Code
 
