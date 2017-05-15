@@ -1,0 +1,7 @@
+# Last things sourced save /etc/bashrc
+
+if [[ $(uname -s) == "Darwin" ]]; then
+    source ~/.profile.osx.d/extra
+elif [[ $(uname -s) == "Linux" ]]; then
+    source ~/.profile.linux.d/extra
+fi
