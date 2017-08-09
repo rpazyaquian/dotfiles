@@ -149,6 +149,9 @@ alias gpsu='g psu'
 alias gpsum='g psum'
 alias gpsug='g psug'
 
+# Env Var
+alias loadenv='export $(cat .env | xargs)'
+
 if [[ $(uname -s) == "Darwin" ]]; then
     source ~/.profile.osx.d/aliases
 elif [[ $(uname -s) == "Linux" ]]; then
