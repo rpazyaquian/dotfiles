@@ -133,7 +133,7 @@ alias gpsum='g psum'
 alias gpsug='g psug'
 
 # Get inside projects folder
-alias pg='cd ${PROJECTS}'
+alias pj='cd ${PROJECTS}'
 
 # Env Var
 alias loadenv='export $(cat .env | xargs)'
