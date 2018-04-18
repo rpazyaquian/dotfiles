@@ -9,6 +9,7 @@ install() {
 
 if [ "$(uname -s)" = "Darwin" ]; then
 	if which brew >/dev/null 2>&1; then
+		brew tap caskroom/fonts
 		brew cask install font-anonymous-pro
 	else
 		install ~/Library/Fonts
