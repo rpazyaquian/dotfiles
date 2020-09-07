@@ -1,6 +1,5 @@
 # pragmaticivan' dotfiles
 
-[![Build Status][tb]][tp]
 [![Powered by Antibody][ab]][ap]
 
 > It's a fork from https://github.com/caarlos0/dotfiles
@@ -9,8 +8,6 @@
 
 [ap]: https://github.com/getantibody/antibody
 [ab]: https://img.shields.io/badge/powered%20by-antibody-blue.svg?style=flat-square
-[tb]: https://img.shields.io/travis/pragmaticivan/dotfiles/master.svg?style=flat-square
-[tp]: https://travis-ci.org/pragmaticivan/dotfiles
 
 ## Installation
 
