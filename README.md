@@ -2,19 +2,15 @@
 
 [![Build Status][tb]][tp]
 [![Powered by Antibody][ab]][ap]
-[![SayThanks.io](https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg?style=flat-square)](https://saythanks.io/to/pragmaticivan)
 
 > It's a fork from https://github.com/caarlos0/dotfiles
 
-> Config files for ZSH, Ruby, Go, Editors, Terminals and more.
-
-![screenshot][scrn]
+> Config files for ZSH, Node, Go, Editors, Terminals and more.
 
 [ap]: https://github.com/getantibody/antibody
 [ab]: https://img.shields.io/badge/powered%20by-antibody-blue.svg?style=flat-square
 [tb]: https://img.shields.io/travis/pragmaticivan/dotfiles/master.svg?style=flat-square
 [tp]: https://travis-ci.org/pragmaticivan/dotfiles
-[scrn]: /docs/screenshot.png
 
 ## Installation
 
@@ -75,10 +71,3 @@ And logging out and in again.
 ## Further help:
 
 - [License](/LICENSE.md)
-
-## Contributing
-
-Feel free to contribute. Pull requests will be automatically
-checked/linted with [Shellcheck](https://github.com/koalaman/shellcheck)
-and [shfmt](https://github.com/mvdan/sh).
-
