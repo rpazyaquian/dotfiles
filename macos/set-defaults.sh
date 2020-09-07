@@ -96,7 +96,7 @@ defaults write NSGlobalDomain AppleHighlightColor -string "0.847059 0.847059 0.8
 echo "  › Show battery percent"
 defaults write com.apple.menuextra.battery ShowPercent -bool true
 
-if [ ! -z "$TRAVIS_JOB_ID" ]; then
+if [ -n "$TRAVIS_JOB_ID" ]; then
 	echo "  › Speed up wake from sleep to 24 hours from an hour"
 	# http://www.cultofmac.com/221392/quick-hack-speeds-up-retina-macbooks-wake-from-sleep-os-x-tips/
 	sudo pmset -a standbydelay 86400
@@ -169,8 +169,8 @@ defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 echo ""
 echo "› Dock"
-echo "  › Setting the icon size of Dock items to 36 pixels for optimal size/screen-realestate"
-defaults write com.apple.dock tilesize -int 36
+echo "  › Setting the icon size of Dock items to 45 pixels for optimal size/screen-realestate"
+defaults write com.apple.dock tilesize -int 45
 
 echo "  › Speeding up Mission Control animations and grouping windows by application"
 defaults write com.apple.dock expose-animation-duration -float 0.1
@@ -263,7 +263,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 ###############################################################################
 # SSD-specific tweaks                                                         #
 ###############################################################################
-if [ ! -z "$TRAVIS_JOB_ID" ] && diskutil info disk0 | grep SSD >/dev/null 2>&1; then
+if [ -n "$TRAVIS_JOB_ID" ] && diskutil info disk0 | grep SSD >/dev/null 2>&1; then
 	echo "  › Disable local backups"
 	# https://classicyuppie.com/what-crap-is-this-os-xs-mobilebackups/
 	sudo tmutil disablelocal
@@ -295,35 +295,6 @@ fi
 
 echo "  › Disable Spotify web helper"
 disable_agent ~/Applications/Spotify.app/Contents/MacOS/SpotifyWebHelper
-
-echo "  › Prevent Android-File-Transfer to open when a device connects"
-disable_agent "/Applications/Android File Transfer.app/Contents/Resources/Android File Transfer Agent.app"
-disable_agent "$HOME/Library/Application Support/Google/Android File Transfer/Android File Transfer Agent.app"
-
-#############################
-
-echo ""
-echo "› Twitter.app:"
-echo "  › Disable smart quotes as it’s annoying for code tweets"
-defaults write com.twitter.twitter-mac AutomaticQuoteSubstitutionEnabled -bool false
-
-echo "  › Show the app window when clicking the menu bar icon"
-defaults write com.twitter.twitter-mac MenuItemBehavior -int 1
-
-echo "  › Enable the hidden ‘Develop’ menu"
-defaults write com.twitter.twitter-mac ShowDevelopMenu -bool true
-
-echo "  › Open links in the background"
-defaults write com.twitter.twitter-mac openLinksInBackground -bool true
-
-echo "  › Allow closing the new tweet window by pressing Esc"
-defaults write com.twitter.twitter-mac ESCClosesComposeWindow -bool true
-
-echo "  › Show full names rather than Twitter handles"
-defaults write com.twitter.twitter-mac ShowFullNames -bool true
-
-echo "  › Hide the app in the background if it’s not the front-most window"
-defaults write com.twitter.twitter-mac HideInBackground -bool true
 
 #############################
 

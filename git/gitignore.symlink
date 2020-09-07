@@ -21,3 +21,4 @@ Thumbs.db
 
 #Elixir LS
 .elixir_ls
+main.tfvars

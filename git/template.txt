@@ -1,9 +1,10 @@
+########50 characters############################
 
+Problem
+# Problem, Task, Reason for Commit
 
-Fixes #
+Solution
+# Solution or List of Changes
 
-## Why is this change necessary?
-
-## How does it address the issue?
-
-## What side effects does this change have?
+Note
+# Special instructions, testing steps, rake, etc

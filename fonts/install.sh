@@ -1,20 +1,21 @@
 #!/bin/sh
-URL="http://www.marksimonson.com/assets/content/fonts/AnonymousPro-1.002.zip"
-
 install() {
-	curl -L -s -o /tmp/anon.zip "$URL"
-	unzip /tmp/anon.zip -d /tmp
-	cp /tmp/AnonymousPro-1.002.001/*.ttf "$2"
+	curl -Lso /tmp/mono.zip https://github.com/JetBrains/JetBrainsMono/releases/download/v1.0.6/JetBrainsMono-1.0.6.zip
+	unzip -j /tmp/mono.zip '*/ttf/*' -d "$1"
+
+	curl -Lso /tmp/hack.zip https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip
+	unzip -j /tmp/hack.zip -d "$1"
 }
 
 if [ "$(uname -s)" = "Darwin" ]; then
-	if which brew >/dev/null 2>&1; then
-		brew tap caskroom/fonts
-		brew cask install font-anonymous-pro
+	if command -v brew >/dev/null 2>&1; then
+		brew tap homebrew/cask-fonts
+		brew cask install font-jetbrains-mono font-hack
 	else
 		install ~/Library/Fonts
 	fi
 else
-	mkdir -p ~/.fonts
-	install ~/.fonts
+	mkdir -p ~/.local/share/fonts/
+	install ~/.local/share/fonts/
+	fc-cache -fv
 fi
