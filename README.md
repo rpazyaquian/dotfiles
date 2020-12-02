@@ -1,8 +1,8 @@
-# pragmaticivan' dotfiles
+# rpazyaquian dotfiles
 
 [![Powered by Antibody][ab]][ap]
 
-> It's a fork from https://github.com/caarlos0/dotfiles
+> Forked from https://github.com/pragmaticivan/dotfiles
 
 > Config files for ZSH, Node, Go, Editors, Terminals and more.
 
